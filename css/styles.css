@@ -1,0 +1,59 @@
+/* ===== Site-wide styles ===== */
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #0f1115;
+  color: #e8e8e8;
+  line-height: 1.6;
+}
+
+/* Layout helpers */
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Header and navigation */
+.site-header {
+  background-color: #141824;
+  border-bottom: 1px solid #262c3a;
+  padding: 20px 0;
+}
+
+.site-title {
+  margin: 0;
+}
+
+.site-tagline {
+  margin-top: 5px;
+  color: #b8c0d9;
+}
+
+.nav a {
+  color: #8be9fd;
+  text-decoration: none;
+  margin-right: 12px;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+/* Content cards */
+.card {
+  background-color: #141824;
+  border: 1px solid #262c3a;
+  border-radius: 12px;
+  padding: 16px;
+  margin-top: 20px;
+}
+
+/* Footer */
+.site-footer {
+  border-top: 1px solid #262c3a;
+  margin-top: 40px;
+  padding: 20px 0;
+  color: #b8c0d9;
+}
