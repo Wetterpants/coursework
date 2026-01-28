@@ -57,3 +57,22 @@ body {
   padding: 20px 0;
   color: #b8c0d9;
 }
+
+/* Banner image */
+.banner { 
+  margin: 0 0 18px; 
+}
+
+.banner img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+  border: 1px solid #262c3a;
+}
+
+.banner figcaption {
+  color: #b8c0d9;
+  margin-top: 8px;
+  font-size: 0.95rem;
+}
