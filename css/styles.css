@@ -89,3 +89,20 @@ body {
     grid-template-columns: 1fr 1fr;
   }
 }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+}
+
+th, td {
+  border: 1px solid #262c3a;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #10131b;
+  color: #b8c0d9;
+}
