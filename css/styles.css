@@ -75,3 +75,17 @@ body {
   margin-top: 8px;
   font-size: 0.95rem;
 }
+
+/* ===== Grid layout for organized content ===== */
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+/* Switch to two columns on larger screens */
+@media (min-width: 800px) {
+  .grid-2 {
+    grid-template-columns: 1fr 1fr;
+  }
+}
