@@ -106,3 +106,15 @@ th {
   background-color: #10131b;
   color: #b8c0d9;
 }
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+@media (min-width: 800px) {
+  .grid-2 {
+    grid-template-columns: 1fr 1fr;
+  }
+}
