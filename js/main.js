@@ -1,4 +1,3 @@
-// Toggle visibility of extra tips
 function toggleTips(id) {
   const section = document.getElementById(id);
 
