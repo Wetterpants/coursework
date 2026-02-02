@@ -15,7 +15,7 @@ body {
   margin: 0 auto;
 }
 
-/* Header and navigation */
+/* ===== Header and navigation ===== */
 .site-header {
   background-color: #141824;
   border-bottom: 1px solid #262c3a;
@@ -41,7 +41,7 @@ body {
   text-decoration: underline;
 }
 
-/* Content cards */
+/* ===== Content cards ===== */
 .card {
   background-color: #141824;
   border: 1px solid #262c3a;
@@ -50,7 +50,7 @@ body {
   margin-top: 20px;
 }
 
-/* Footer */
+/* ===== Footer ===== */
 .site-footer {
   border-top: 1px solid #262c3a;
   margin-top: 40px;
@@ -58,22 +58,26 @@ body {
   color: #b8c0d9;
 }
 
-/* Banner image */
-.banner { 
-  margin: 0 0 18px; 
+/* ===== Banner image ===== */
+.banner {
+  margin: 0 0 18px;
 }
 
 .banner img {
+  display: block;
   width: 100%;
   max-width: 800px;
   height: auto;
   margin: 0 auto;
+  border-radius: 12px;
+  border: 1px solid #262c3a;
 }
 
 .banner figcaption {
   color: #b8c0d9;
   margin-top: 8px;
   font-size: 0.95rem;
+  text-align: center;
 }
 
 /* ===== Grid layout for organized content ===== */
@@ -90,13 +94,15 @@ body {
   }
 }
 
+/* ===== Tables ===== */
 table {
   width: 100%;
   border-collapse: collapse;
   margin-top: 12px;
 }
 
-th, td {
+th,
+td {
   border: 1px solid #262c3a;
   padding: 10px;
   text-align: left;
@@ -107,14 +113,16 @@ th {
   color: #b8c0d9;
 }
 
-.grid-2 {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 16px;
+/* ===== Buttons ===== */
+button {
+  background-color: #141824;
+  color: #8be9fd;
+  border: 1px solid #262c3a;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
 }
 
-@media (min-width: 800px) {
-  .grid-2 {
-    grid-template-columns: 1fr 1fr;
-  }
+button:hover {
+  background-color: #10131b;
 }
