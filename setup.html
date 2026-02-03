@@ -24,12 +24,13 @@
   </header>
 
   <main class="container">
+
     <section class="card">
       <h2>After the Build: Setup Basics</h2>
       <ul>
         <li>Enter BIOS/UEFI and confirm all parts are detected.</li>
         <li>Set the boot order for your USB installer.</li>
-        <li>Install your operating system (Windows is most common).</li>
+        <li>Install your operating system.</li>
         <li>Install GPU and motherboard drivers.</li>
         <li>Run updates and monitor temperatures.</li>
       </ul>
@@ -38,10 +39,10 @@
     <section class="card">
       <h2>First boot tips</h2>
       <ul>
-        <li>If the system does not power on, recheck the power cables and front panel connectors.</li>
-        <li>Be patient during the first boot; it may take longer than normal.</li>
-        <li>Listen for unusual sounds from fans or the power supply.</li>
-        <li>Watch motherboard LEDs or error codes if your board supports them.</li>
+        <li>If the system does not power on, recheck cables.</li>
+        <li>Be patient during the first boot.</li>
+        <li>Listen for unusual sounds from fans.</li>
+        <li>Watch motherboard LEDs or error codes.</li>
       </ul>
     </section>
 
@@ -59,27 +60,25 @@
       <div class="card">
         <h2>After Windows is installed</h2>
         <ul>
-          <li>Install chipset drivers from the motherboard manufacturer.</li>
+          <li>Install chipset drivers.</li>
           <li>Install the latest GPU drivers.</li>
-          <li>Run Windows Update until no updates remain.</li>
+          <li>Run Windows Update until complete.</li>
           <li>Install essential software and games.</li>
         </ul>
       </div>
     </section>
 
-    <!-- JavaScript -->
+    <!-- INTERACTIVE SECTION -->
     <section class="card">
-      <button onclick="toggleTips('setupTips')">
-        Show / Hide Extra Setup Tips
-      </button>
-
-      <div id="setupTips" style="display:none;">
+      <details>
+        <summary><strong>Click to view post-setup best practices</strong></summary>
         <ul>
-          <li>Enable XMP or EXPO to get full RAM performance.</li>
-          <li>Install monitoring software to keep an eye on temperatures.</li>
-          <li>Create a restore point after installing drivers.</li>
+          <li>Create a system restore point.</li>
+          <li>Enable automatic updates.</li>
+          <li>Install monitoring software to track temps.</li>
+          <li>Back up important files regularly.</li>
         </ul>
-      </div>
+      </details>
     </section>
 
   </main>
@@ -89,7 +88,7 @@
       <p>© 2026 Beginner’s Guide to Gaming PC Builds</p>
     </div>
   </footer>
-  
+
 <script src="./js/main.js"></script>
 </body>
 </html>
