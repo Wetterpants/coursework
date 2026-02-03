@@ -50,6 +50,16 @@ body {
   margin-top: 20px;
 }
 
+details summary {
+  cursor: pointer;
+  color: #8be9fd;
+  margin-bottom: 8px;
+}
+
+details[open] summary {
+  color: #b8c0d9;
+}
+
 /* ===== Footer ===== */
 .site-footer {
   border-top: 1px solid #262c3a;
