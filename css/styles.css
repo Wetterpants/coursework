@@ -50,6 +50,12 @@ body {
   margin-top: 20px;
 }
 
+.card:hover {
+  border-color: #8be9fd;
+  transform: translateY(-2px);
+  transition: 0.2s ease;
+}
+
 details summary {
   cursor: pointer;
   color: #8be9fd;
