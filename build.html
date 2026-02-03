@@ -58,7 +58,7 @@
           <li>Installing RAM in the wrong slots (check the motherboard manual)</li>
           <li>Leaving the protective plastic on the cooler before mounting</li>
           <li>Not seating the GPU fully into the PCIe slot</li>
-          <li>Missing front panel connectors (power button) so the PC won’t start</li>
+          <li>Missing front panel connectors so the PC won’t start</li>
         </ul>
       </div>
 
@@ -69,24 +69,21 @@
           <li>24-pin motherboard power cable is connected</li>
           <li>CPU power cable is connected</li>
           <li>GPU power cables are connected (if required)</li>
-          <li>Monitor is plugged into the GPU (not the motherboard) if you have a dedicated GPU</li>
+          <li>Monitor is plugged into the GPU, not the motherboard</li>
         </ul>
       </div>
     </section>
 
-    <!-- JavaScript -->
+    <!-- INTERACTIVE SECTION -->
     <section class="card">
-      <button onclick="toggleTips('buildTips')">
-        Show / Hide Extra Build Tips
-      </button>
-
-      <div id="buildTips" style="display:none;">
+      <details>
+        <summary><strong>Click to view extra build tips</strong></summary>
         <ul>
           <li>Read the motherboard manual before starting.</li>
           <li>Do not overtighten screws when mounting components.</li>
           <li>Route cables early to improve airflow.</li>
         </ul>
-      </div>
+      </details>
     </section>
 
   </main>
@@ -95,8 +92,8 @@
     <div class="container">
       <p>© 2026 Beginner’s Guide to Gaming PC Builds</p>
     </div>
-  </footer>
-  
+  </footer>  
+
 <script src="./js/main.js"></script>
 </body>
 </html>
