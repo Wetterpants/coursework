@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>PC Build Request</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>Beginner’s Guide to Gaming PC Builds</h1>
+
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="parts.html">Parts</a>
+        <a href="build.html">Build Steps</a>
+        <a href="compatibility.html">Compatibility</a>
+        <a href="setup.html">Setup</a>
+        <a href="resources.html">Resources</a>
+        <a href="request.html" aria-current="page">Build Request</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>PC Build Request</h2>
+      <p>
+        Use this form to describe the type of gaming PC you are interested in.
+        This information helps determine suitable components based on your needs.
+      </p>
+
+      <form action="submit.php" method="post">
+
+        <label>
+          Name:<br>
+          <input type="text" name="name" required>
+        </label><br><br>
+
+        <label>
+          Email:<br>
+          <input type="email" name="email" required>
+        </label><br><br>
+
+        <label>
+          Budget Range:<br>
+          <select name="budget">
+            <option value="under1000">Under $1,000</option>
+            <option value="1000-1500">$1,000 – $1,500</option>
+            <option value="1500-2000">$1,500 – $2,000</option>
+            <option value="2000plus">$2,000+</option>
+          </select>
+        </label><br><br>
+
+        <label>
+          Games You Play:<br>
+          <input type="text" name="games" placeholder="Example: Call of Duty, Fortnite">
+        </label><br><br>
+
+        <label>
+          Performance Goal:<br>
+          <select name="performance">
+            <option value="1080p">1080p Gaming</option>
+            <option value="1440p">1440p Gaming</option>
+            <option value="4k">4K Gaming</option>
+          </select>
+        </label><br><br>
+
+        <label>
+          Additional Notes:<br>
+          <textarea name="notes" rows="4"></textarea>
+        </label><br><br>
+
+        <button type="submit">Submit Build Request</button>
+
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2026 Beginner’s Guide to Gaming PC Builds</p>
+    </div>
+  </footer>
+</body>
+</html>
+
